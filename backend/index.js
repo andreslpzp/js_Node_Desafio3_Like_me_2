@@ -11,6 +11,6 @@ const {PORT} = process.env;
 //SACAR ` con ALT + 96
 
 app.listen(PORT || 3000, ()=> {
-    console.log(`Servidor encendido! en el puerto http://localhost:${PORT}`)
+    console.log(`Server working on port http://localhost:${PORT}`)
 }
 );
